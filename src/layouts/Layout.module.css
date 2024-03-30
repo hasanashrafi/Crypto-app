@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #34373f;
+  padding: 10px 20px;
+  margin-bottom: 150px;
+  border-radius: 10px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 2rem;
+}
+h1 a:hover {
+  color: rgb(148, 145, 142);
+}
+.footer {
+  text-align: center;
+  background-color: #34373f;
+  padding: 20px;
+  margin-top: 88px;
+  border-radius: 10px;
+}

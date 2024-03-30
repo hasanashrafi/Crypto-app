@@ -33,11 +33,11 @@ function HomePage() {
 
   return (
     <div>
-      <h1>Crypto App 💰 | <a href="https://github.com/hasanashrafi">HsN</a></h1>
+     
       <Search currency={currency} setCurrency={setCurrency} />
-      <TableCoin coins={coins} isLoading={isLoading} currency={currency} setCurrency={setCurrency} />
+      <TableCoin coins={coins} isLoading={isLoading} currency={currency} setCurrency={setCurrency} setChart={setChart} />
       <Pagination page={page} setPage={setPage} />
-      <Chart/>
+      {!!chart && <Chart chart={chart} setChart={setChart} />}
     </div>
 
   );
