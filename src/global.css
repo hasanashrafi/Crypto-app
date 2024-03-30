@@ -18,13 +18,3 @@ body {
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-a:hover{
-  color: #c9c498;
-}
-h1{
-  color: #EBB40F;
-}
